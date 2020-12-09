@@ -13,14 +13,14 @@ import Masthead from "../components/Masthead";
  *  Your server to be running ---> Run `npm run dev` in your terminal
  */
 
-function Home() {
+function Example() {
   return (
     <div>
         <Masthead />
       <Navbar />
       <section>
         <div className="container">
-          <h1>Welcome to Supplies</h1>
+          <h1>Welcome to Example</h1>
           <p>
             Help contribute to the community by donating any supplies that you
             can spare to those who need them the most! (especially with what's
@@ -34,4 +34,5 @@ function Home() {
   );
 }
 
-export default Home;
+export default Example;
+
